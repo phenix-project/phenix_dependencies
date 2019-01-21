@@ -1,0 +1,20 @@
+package:
+  name: phenix_dependencies
+  version: 2018.12.29                   # YYYY.MM.DD
+
+requirements:
+  run:
+    - cctbx_dependencies
+    - rdkit
+
+about:
+  home: https://github.com/phenix-project/phenix_dependencies
+  summary: Metapackage for Phenix dependencies
+  description: "This is a metapackage that just installs the dependencies for \
+    Phenix. The conda-forge and cctbx channels are required."
+  doc_url: https://phenix-online.org/documentation
+  dev_url: https://phenix-online.org
+
+extra:
+  recipe-maintainers:
+    - bkpoon
