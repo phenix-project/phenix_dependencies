@@ -5,7 +5,7 @@ package:
 requirements:
   run:
     - cctbx-deps
-    - amber_phenix
+    - amber_phenix                      # [unix]
     - onedep_api
 
     # dials
