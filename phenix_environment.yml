@@ -1,0 +1,31 @@
+name: conda_base
+
+channels:
+  - conda-forge
+  - defaults
+  - cctbx
+  - phenix-project
+
+dependencies:
+  - cctbx-deps
+  - amber_phenix
+  - onedep_api
+  - send2trash
+  - PyRTF
+
+ # dials
+  - jinja2
+  - msgpack-c
+  - msgpack-python
+  - orderedset
+  - procrunner
+  - python-blosc
+  - scikit-learn
+  - scipy
+  - tqdm =4.23.4
+
+  # dials-data
+  - pyyaml
+
+  # xia2
+  - tabulate
