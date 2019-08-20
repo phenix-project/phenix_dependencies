@@ -8,7 +8,7 @@ channels:
 
 dependencies:
   - cctbx-deps
-  - amber_phenix
+  - amber_phenix            # [unix]
   - onedep_api
   - send2trash
   - PyRTF
